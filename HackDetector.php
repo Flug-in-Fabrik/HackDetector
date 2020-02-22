@@ -60,7 +60,7 @@ class HackDetector extends PluginBase implements Listener{
   private $mode_destroy = "disable"; //불도저 사용 여부
   
   /*
-  밴드 API를 사용하여 게시글을 올릴 여부를 선택 할 수 있습니다 (DPMMP와 윈도우의 환경에서는 작동하지 않을 수 있습니다
+  밴드 API를 사용하여 게시글을 올릴 여부를 선택 할 수 있습니다 (DPMMP와 윈도우의 환경에서는 작동하지 않을 수 있습니다)
   
   특정의 값이 설정된 값 이상일 경우 밴 또는 킥 등의 시스템이 작동됩니다
   type에서 밴은 ban, 킥은 kick으로 설정 할 수 있습니다 (null이나 그 이외의 경우 kick으로 처리됩니다)
