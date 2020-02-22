@@ -66,7 +66,7 @@ class HackDetector extends PluginBase implements Listener{
   type에서 밴은 ban, 킥은 kick으로 설정 할 수 있습니다 (null이나 그 이외의 경우 kick으로 처리됩니다)
   
   mode에서는 해당 기능의 사용 여부를 결정 할 수 있습니다
-  enable(활성화), disable(비활성화)가 존재합니다 (null이나 그 이외의 경우 false로 처리됩니다)
+  enable(활성화), disable(비활성화)가 존재합니다 (null이나 그 이외의 경우 disable로 처리됩니다)
   */
   
   public function onEnable(){
