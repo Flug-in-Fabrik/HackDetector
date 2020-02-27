@@ -141,7 +141,7 @@ class HackDetector extends PluginBase implements Listener{
       
         if($this->type_destroy === "ban"){
         
-          $this->getServer()->getNameBans()->addBan($name, "불도저");
+          $this->getServer()->getNameBans()->addBan($name, "부적절한 블럭 파괴");
           $player->kick("부적절한 블럭 파괴를 하여 밴이 되었습니다");
           
           $this->Message($name, "부적절한 블럭파괴", "밴");
@@ -174,7 +174,7 @@ class HackDetector extends PluginBase implements Listener{
             
               if($this->type_reach === "ban"){
               
-                $this->getServer()->getNameBans()->addBan($name, "불도저");
+                $this->getServer()->getNameBans()->addBan($name, "리치핵");
                 $player->kick("리치핵을 사용하여 밴이 되었습니다");
                 
                 $this->Message($name, "리치핵", "밴");
@@ -207,7 +207,7 @@ class HackDetector extends PluginBase implements Listener{
             
           if($this->type_chatplaster === "ban"){
           
-            $this->getServer()->getNameBans()->addBan($name, "불도저");
+            $this->getServer()->getNameBans()->addBan($name, "채팅 도배");
             $player->kick("채팅 도배를 하여 밴이 되었습니다");
             
             $this->Message($name, "채팅 도배", "밴");
