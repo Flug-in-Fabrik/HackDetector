@@ -53,11 +53,11 @@ class HackDetector extends PluginBase implements Listener{
   
   private $reach = 0; //리치핵 거리 (화살, 눈덩이, 포션...등의 Projectile이 아닌 무기에 의해 맞은 거리가 해당 값 이상일 경우 작동됩니다)
   private $type_reach = "null"; //리치핵 처리 타입
-  private $mode_reach = "disable"; //불도저 사용 여부
+  private $mode_reach = "disable"; //리치핵 사용 여부
   
   private $destroy = [0]; //부적절 블럭 파괴 ([아이디:데미지, 아이디:데미지]로 작성하여 해당 블럭 중 하나라도 op가 아닌 플레이어가 파괴할 시 작동됩니다)
   private $type_destroy = "null"; //부적절 블럭 파괴 타입
-  private $mode_destroy = "disable"; //불도저 사용 여부
+  private $mode_destroy = "disable"; //부적절 블럭 파괴 사용 여부
   
   /*
   밴드 API를 사용하여 게시글을 올릴 여부를 선택 할 수 있습니다 (DPMMP와 윈도우의 환경에서는 작동하지 않을 수 있습니다)
